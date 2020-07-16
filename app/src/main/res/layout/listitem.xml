@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stateTextView"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/total"
+                            android:src="@drawable/icontotal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:textAlignment="center"
+                            android:text="TOTAL"
+                            android:textColor="#080D68"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/totalStateCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:textColor="#080D68"
+                            android:textAlignment="center"
+                            android:textSize="18dp"
+                            android:paddingLeft="10dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="5dp"
+                            android:id="@+id/recov"
+                            android:src="@drawable/recovericon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:textAlignment="center"
+                            android:text="RECOVERED"
+                            android:textColor="#344E05"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/recoveredTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:textAlignment="center"
+                            android:textColor="#344E05"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="20dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/active"
+                            android:src="@drawable/active" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                           android:textAlignment="center"
+                            android:text="ACTIVE"
+                            android:textColor="#5E022E"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/ActiveTextView"
+                            android:layout_width="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_height="30dp"
+                            android:textColor="#5E022E"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/death"
+                            android:src="@drawable/skull" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:textAlignment="center"
+                            android:text="DEATHS"
+                            android:textColor="#807A7C"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/DeathsTextView"
+                            android:layout_width="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_height="30dp"
+                            android:textColor="#807A7C"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+</LinearLayout>
